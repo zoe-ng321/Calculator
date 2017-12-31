@@ -5,16 +5,17 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="./main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 </head>
 <body>
 	<div class="calculator">
-		<div class="display"></div>
+		<div id="display"></div>
 		<div class="operator">
 			<a>+</a>
 			<a>-</a>
 			<a>*</a>
 			<a>/</a>
-			<a>=</a>
+			<a id="equal">=</a>
 		</div>
 		<div class="number">
 			<a>7</a>
@@ -26,11 +27,13 @@
 			<a>1</a>
 			<a>2</a>
 			<a>3</a>
-			<a id="clear">C</a>
+			<a id="negative">(-)</a>
 			<a>0</a>
-			<a id="clearall">AC</a>
+			<a id="decimal">.</a>
+			<a id="clear">C</a>
 		</div>
 	</div>
-
+	<script src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 </body>
 </html>
